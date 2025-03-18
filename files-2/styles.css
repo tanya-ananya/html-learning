@@ -1,0 +1,109 @@
+* {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    /* background-color: #f1f1f1; */
+    background-color: #2b2b2b;
+}
+
+body {
+    font-size: 21px;
+    /* color: #434343; */
+    color: #d7d7d7;
+    margin: 50px;
+}
+
+/* TEXTS */
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+  
+}
+
+h2 {
+  
+}
+
+h3 {
+  
+}
+
+h4 {
+  
+}
+
+p {
+  
+}
+
+a,
+a * {
+  
+}
+
+/* BUTTONS */
+
+button {
+    background-color: #3e6a56;    /* button color */
+    color: white;               /* text color */
+    border: none;               /* hides the default border */
+    padding: 5px 12px;          /* space between button's text and edge */
+    border-radius: 5px;         /* curved edges instead of square */
+    cursor: pointer;            /* makes the cursor change when over button */
+    font-size: 100%;
+    display: inline-block;
+    margin: 1%;
+    align-content: center;
+}
+
+button:hover {
+  /* Make the button look different when the user hovers over it */
+}
+
+/* IMAGES */
+img {
+    width: 30%;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+}
+
+.header { /* Example A: This styles elements with class="header" */
+  
+}
+
+.footer { /* Example B: This styles elements with class="footer" */
+  
+}
+
+
+:root {
+  /* Light Mode */
+  --bg-color: #a6a0cf;
+  --text-color: #231942;
+
+  /* Dark Mode */
+  --bg-color-dark-mode: #3e3377;
+  --text-color-dark-mode: #fff;
+
+  /* Accent Colors */
+  --accent-color-light: #d2cff5;
+  --accent-color-medium: #684fb5;
+  --accent-color-dark: #482f95;
+  --accent-color-darkest: #231942;
+  --accent-color-green: #28eb76;
+
+  /* Error Colors */
+  --error-color: #f8bbd0;
+  --error-color-border: #e63946;
+}
